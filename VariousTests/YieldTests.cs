@@ -1,5 +1,4 @@
 using NUnit.Framework;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -22,9 +21,7 @@ namespace VariousTests
             }
 
             var result = GetValues(values).ToList();
-
         }
-
 
         private IEnumerable<int> GetValues(IEnumerable<int> values)
         {
@@ -33,6 +30,26 @@ namespace VariousTests
             {
                 yield return value;
             }
+        }
+
+        [Test]
+        public void Testrun()
+        {
+            var input = "a====10;b=2";
+
+            var inputArray = input.Split(';');
+
+            var key = inputArray[0];
+            var value = inputArray.TakeLast(1).FirstOrDefault();
+
+            var count = input.Where(x => x.Equals('=')).Count();
+
+            for (int i = 0; i < count-1; i++)
+            {
+                value = "=" + value;
+            }
+
+
         }
     }
 }
