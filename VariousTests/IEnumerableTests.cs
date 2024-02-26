@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Diagnostics;
 using System.Linq;
 
@@ -57,6 +58,34 @@ namespace VariousTests
             Console.WriteLine($"duration for {count} items ->  FirstOrDefault(): {secondDuration}");
         }
 
+        [Test]
+        public void MoveNext_Foces_Materialization()
+        {
+            var mem1 = GC.GetTotalMemory(true);
+            var itemsList = GetItemList(100000).ToList();
+            var mem2= GC.GetTotalMemory(true);
+            var diff1 = mem2 - mem1;
+            var items = itemsList.Select(x => x);//GetItemList(100000).ToList();
+            var mem3= GC.GetTotalMemory(true);
+            
+            items.Count();
+            var mem4= GC.GetTotalMemory(true);
+            items.Count();
+            items.Count();
+            items.Count();
+            items.Count();
+
+            var mem5= GC.GetTotalMemory(true);
+            var itemsList2 = itemsList.ToList();
+            var mem6= GC.GetTotalMemory(true);
+            var diff2 = mem6 - mem5;
+            
+            var mem7= GC.GetTotalMemory(true);
+            var itemsList3 = itemsList.ToImmutableList();
+            var mem8= GC.GetTotalMemory(true);
+            var diff3 = mem8 - mem7;
+        }
+
         private IEnumerable<string> GetStringList(int count = 2)
         {
             for (int i = 0; i < count; i++)
@@ -72,7 +101,7 @@ namespace VariousTests
                 yield return new TestItem { Id = i, Name1 = i.ToString()};
             }
         }
-
+        
         private class TestItem
         {
             public long Id { get; set; }
