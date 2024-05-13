@@ -1,0 +1,23 @@
+2024-05-10 15:06:26.876 +02:00 [INF] Now listening on: http://localhost:5025
+2024-05-10 15:06:26.910 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-10 15:06:26.911 +02:00 [INF] Hosting environment: Development
+2024-05-10 15:06:26.911 +02:00 [INF] Content root path: C:\ws\prototypes\WebApi
+2024-05-10 15:06:27.610 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 15:06:27.695 +02:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-05-10 15:06:34.891 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-10 15:07:11.846 +02:00 [INF] .....................Get was called .........................
+2024-05-10 15:11:08.658 +02:00 [INF] Now listening on: http://localhost:5025
+2024-05-10 15:11:08.684 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-10 15:11:08.685 +02:00 [INF] Hosting environment: Development
+2024-05-10 15:11:08.685 +02:00 [INF] Content root path: C:\ws\prototypes\WebApi
+2024-05-10 15:11:09.498 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 15:11:09.605 +02:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-05-10 15:11:22.660 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-10 15:11:26.436 +02:00 [INF] .....................Get was called .........................
+2024-05-10 15:12:27.246 +02:00 [INF] Now listening on: http://localhost:5025
+2024-05-10 15:12:27.288 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-10 15:12:27.290 +02:00 [INF] Hosting environment: Development
+2024-05-10 15:12:27.290 +02:00 [INF] Content root path: C:\ws\prototypes\WebApi
+2024-05-10 15:12:28.140 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 15:12:31.945 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-10 15:12:34.259 +02:00 [INF] .....................Get was called .........................

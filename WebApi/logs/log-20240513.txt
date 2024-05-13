@@ -1,0 +1,44 @@
+2024-05-13 08:10:10.081 +02:00 [INF] Now listening on: http://localhost:5025
+2024-05-13 08:10:10.138 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 08:10:10.140 +02:00 [INF] Hosting environment: Development
+2024-05-13 08:10:10.141 +02:00 [INF] Content root path: C:\ws\prototypes\WebApi
+2024-05-13 08:10:10.879 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-13 08:10:11.117 +02:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-05-13 08:10:19.889 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-13 08:10:19.907 +02:00 [INF] .....................Get was called .........................
+2024-05-13 08:10:37.170 +02:00 [INF] Application is shutting down...
+2024-05-13 08:14:11.101 +02:00 [DBG] Hosting starting
+2024-05-13 08:14:11.169 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 08:14:11.170 +02:00 [INF] Hosting environment: Development
+2024-05-13 08:14:11.171 +02:00 [INF] Content root path: C:\ws\prototypes\WebApi
+2024-05-13 08:14:11.171 +02:00 [DBG] Hosting started
+2024-05-13 08:14:11.212 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-13 08:14:11.247 +02:00 [DBG] Connection ID "18374686532016537637" disconnecting.
+2024-05-13 08:14:11.315 +02:00 [DBG] Connection ID "18374686501951766545" disconnecting.
+2024-05-13 08:14:11.348 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-13 08:14:11.348 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-13 08:14:11.350 +02:00 [DBG] Connection ID "18374686510541701148" disconnecting.
+2024-05-13 08:14:11.356 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-13 08:14:11.366 +02:00 [DBG] Connection ID "18374686501951766547" disconnecting.
+2024-05-13 08:14:11.379 +02:00 [DBG] Connection ID "18230571309580943386" disconnecting.
+2024-05-13 08:14:11.580 +02:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-05-13 08:14:11.581 +02:00 [DBG] Connection ID "18374686501951766549" disconnecting.
+2024-05-13 08:14:15.466 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-13 08:14:15.481 +02:00 [INF] .....................Get was called .........................
+2024-05-13 08:14:15.483 +02:00 [DBG] Connection ID "18230571318170877972" disconnecting.
+2024-05-13 08:14:32.346 +02:00 [INF] Application is shutting down...
+2024-05-13 08:14:32.346 +02:00 [DBG] Hosting stopping
+2024-05-13 08:14:32.347 +02:00 [DBG] Hosting stopped
+2024-05-13 08:15:34.191 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 08:15:34.225 +02:00 [INF] Hosting environment: Development
+2024-05-13 08:15:34.226 +02:00 [INF] Content root path: C:\ws\prototypes\WebApi
+2024-05-13 08:15:34.335 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-13 08:15:34.494 +02:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-05-13 08:15:41.884 +02:00 [INF] Application is shutting down...
+2024-05-13 08:17:01.921 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 08:17:01.952 +02:00 [INF] Hosting environment: Development
+2024-05-13 08:17:01.953 +02:00 [INF] Content root path: C:\ws\prototypes\WebApi
+2024-05-13 08:17:02.054 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-13 08:17:02.207 +02:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-05-13 08:17:15.334 +02:00 [INF] .....................Get was called .........................
+2024-05-13 08:17:30.416 +02:00 [INF] Application is shutting down...
